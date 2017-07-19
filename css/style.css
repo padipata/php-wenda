@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background-color: #FFFFFF;
+}
+/*更改jQuery UI主题的对话框header的背景*/
+.ui-widget-header{
+	background: #00bb79;
+}
+/*更改dialog的title提示文字样式*/
+.ui-dialog-title{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+/*更改日历小图标的位置*/
+.ui-datepicker-trigger{
+	margin-left: 10px;
+}
+#ui-datepicker-div{
+	width: 230px;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	background: #00bb79;
+	position: absolute;
+	top: 0;
+}
+.header_main{
+	width: 900px;
+	height: 50px;
+	margin: 0 auto;
+}
+.header_logo{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	padding: 0 10px;
+}
+.header_search{
+	float: left;
+	padding: 12px 0 0 10px;
+}
+.header_search .search{
+	width: 300px;
+	height: 20px;
+	background: #FFFFFF;
+	font-size: 14px;
+	text-indent: 10px;
+}
+.header_button{
+	float: left;
+	padding: 12px 0 0 5px;
+}
+.header_member{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	color: #FFFFFF;
+}
+.header_member a{
+	font-size:14px ;
+	color: #454545;
+	text-decoration: none;
+}
+#reg_a{
+	color: #FFFFFF;
+}
+#login_a{
+	color: #FFFFFF;
+}
+#member{
+	color: #FFFFFF;
+}
+#logout{
+	color: #FFFFFF;
+}
+.reg p label{
+	font-size: 14px;
+	color: #666666;
+}
+.reg .succ {
+	display:inline-block;
+	width:28px;
+	background:url(../img/reg_succ.png) no-repeat;
+}
+.reg p .text{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #00bb79 ;
+	/*border-radius: 10px;     将边框变成椭圆 */
+	background: #FFFFFF;
+	color: #666666;
+	text-indent: 10px;
+}
+.reg p .star{
+	font-size: 15px;
+	color: indianred;
+}
+.reg p .password{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #00bb79 ;
+	/*border-radius: 10px;     将边框变成椭圆 */
+	background: #FFFFFF;
+	color: #666666;
+	text-indent: 10px;
+}
+.reg p .repassword{
+	width: 172px;
+	height: 25px;
+	border: 1px solid #00bb79 ;
+	/*border-radius: 10px;     将边框变成椭圆 */
+	background: #FFFFFF;
+	color: #666666;
+	text-indent: 10px;
+}
+.reg p .email{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #00bb79 ;
+	/*border-radius: 10px;     将边框变成椭圆 */
+	background: #FFFFFF;
+	color: #666666;
+	text-indent: 10px;
+}
+.reg p .date{
+	width: 180px;
+	height: 25px;
+	border: 1px solid #00bb79 ;
+	/*border-radius: 10px;     将边框变成椭圆 */
+	background: #FFFFFF;
+	color: #666666;
+	text-indent: 10px;
+}
+/*改变注册表单工具提示样式*/
+.ui-tooltip{
+	color: indianred;
+}
+/*.a{
+	color: blue;
+}*/
+/*更改自动补全的鼠标悬停样式*/
+.ui-menu .ui-menu-item a.ui-state-focus{
+	background: #00bb79;
+}
+
+.reg_error{
+	margin: 0;
+	padding: 0;
+	color : red;
+	margin-left: 12px;
+}
+.error{
+	height: 20px;
+}
+#loading {
+	background:url(../img/loading.gif) no-repeat 20px center;
+	line-height:25px;
+	font-size:14px;
+	font-weight:bold;
+	text-indent:40px;
+	color:#666;
+}
+
+
+
+
+
+
+
+

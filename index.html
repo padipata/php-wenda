@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>问知系统</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.js"></script>
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="img/tubiao.ico" />
+		<link rel="stylesheet" type="text/css" href="css/base/jquery.ui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_main">
+				<h1 class="header_logo">问知</h1>
+				<div class="header_search">
+					<input type="text" name="search" class="search" />
+				</div>
+				<div class="header_button">
+					<!--<input type="button" value="搜  索" id="search_button" />-->
+					<button id="search_button">搜 索</button>
+				</div>
+				<div class="header_member">
+					<a href="javascript:void(0)" id="reg_a">注册</a>
+					<a href="javascript:void(0)" id="member">用户</a>
+					|
+					<a href="javascript:void(0)" id="login_a">登录</a>
+					<a href="javascript:void(0)" id="logout">退出</a>
+				</div>
+			</div>
+		</div>		
+		
+		<!--注册表单-->
+		<form class="reg" id="reg" >
+			<p>
+				<label for="user">账号：</label>
+				<input type="text" name="user" value="pjh" class="text" id="user" />
+				<span class="star">*</span>
+			</p>
+			<p>
+				<label for="password">密码：</label>
+				<input type="password" name="password" value="123456" class="password" id="password" />
+				<span class="star">*</span>
+			</p>
+			<p>
+				<label for="repassword">确认密码：</label>
+				<input type="password" name="repassword" value="123456" class="repassword" id="repassword" />
+				<span class="star">*</span>
+			</p>
+			<p>
+				<label for="email">邮箱：</label>
+				<input type="text" name="email" class="email" id="email" />
+				<span class="star">*</span>
+			</p>
+			<p>
+				<label for="sex">性别：</label>
+				<input type="radio" name="sex" id="nan" ><label for="nan">男</label></input>
+				<input type="radio" name="sex" id="nv" ><label for="nv">女</label></input>
+			</p>
+			<p>
+				<label for="date">生日：</label>
+				<input type="text" name="birthday" readonly="readonly" class="date" id="date" />
+			</p>
+			
+			<ol class="reg_error"></ol>
+			
+		</form>
+		
+		<!--用户登录表单-->
+		<form class="login" id="reg" >
+			<p>
+				<label for="user">账号：</label>
+				<input type="text" name="user" class="text" id="login_user" />
+				<span class="star">*</span>
+			</p>
+			<p>
+				<label for="password">密码：</label>
+				<input type="password" name="password" class="text" id="login_pass" />
+				<span class="star">*</span>
+			</p>
+
+			<ol class="login_error"></ol>
+			
+		</form>
+		
+		<div id="loading">数据交互中...</div>
+		
+		<div class="login" >
+			我是dialog窗口--用户登录
+		</div>
+	</body>
+</html>
